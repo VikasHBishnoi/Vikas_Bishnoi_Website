@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Song Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul >
+            <li class="nav_img"><img class="logoimg" src="/images/logo.png"></li>
+            <li class="nav_tex" id="brand">Spotify</li>
+            <li class="nav_tex">Home</li>
+            <li class="nav_tex">About</li>
+            <li class="nav_tex">Contact us</li>
+        </ul>
+    </nav>
+
+    <!-- Main Player -->
+    <div class="Container">
+        <h1>Best Of No CopyRigth Song</h1>
+        <div class="Song">
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="play" min="0" max="100">
+        <div class="icon">    
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
